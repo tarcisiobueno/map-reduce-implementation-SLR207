@@ -1,11 +1,5 @@
 # SLR207 Project - MapReduce Implementation in JAVA
-<style>
-	img {
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-	}
-</style>
+
 ## Project Overview
 This project implements a distributed computing framework using the MapReduce paradigm to process large datasets across multiple nodes. The goal of the project is to explore the effectiveness of the MapReduce model in parallel computing while analyzing Amdahl's Law.
 
