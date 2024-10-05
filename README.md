@@ -1,4 +1,4 @@
-# SLR207 Project - MapReduce Implementation for Tokenization of Large Datasets
+# MapReduce Implementation for Tokenization of Large Datasets - SLR207
 
 ## Project Overview
 This project implements a distributed computing framework using the MapReduce pattern to extract tokens from large datasets and sort them by frequency. Simulations across up to 40 servers were then conducted to collect data for comparison with Amdahl's Law.
