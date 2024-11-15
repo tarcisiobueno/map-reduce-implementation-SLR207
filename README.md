@@ -1,7 +1,7 @@
-# MapReduce Implementation for Tokenization of Large Datasets - SLR207
+# Simplified version of the MapReduce pattern from scratch
 
 ## Project Overview
-This project implements a distributed computing framework using the MapReduce pattern to extract tokens from large datasets and sort them by frequency. Simulations across up to 40 servers were then conducted to collect data for comparison with Amdahl's Law.
+This project implements the MapReduce pattern to extract tokens from large datasets and sort them by frequency. Simulations across up to 40 servers were then conducted to collect data for comparison with Amdahl's Law.
 
 The communication between nodes is achieved using File Transfer Protocol (FTP) for data transfer and sockets for control signaling. The master node orchestrates the process by sending data splits to each worker node via FTP, while also managing node coordination through socket communication. 
 
